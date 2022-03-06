@@ -21,3 +21,13 @@ OpenAI gym의 CartPole을 DQN과 Double DQN으로 각각 학습한 뒤, 논문�
 - 학습을 마친 후 얻은 average return 값의 경우에도, DQN보다는 Double DQN이 더 높은 값을 보임.
 
 - 학습 중 shaded area의 폭도 Double DQN이 DQN보다 작은 것을 볼 수 있음.
+
+# Note
+
+일정 간격 당 에피소드를 gif 파일로 다운로드하려면
+
+```python
+rendering = False # True if (n_epi+1)%print_interval==0 else False
+```
+
+에서 <code>False</code>를 주석 부분으로 바꿔주면 됩니다. 그러나 렌더링 작업으로 인해 학습 속도가 꽤 느려질 수 있습니다.
