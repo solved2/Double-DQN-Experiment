@@ -5,10 +5,12 @@ OpenAI gym의 CartPole을 DQN과 Double DQN으로 각각 학습한 뒤, 논문�
 # Plot Result
 
 - Double DQN
-  <img src="https://user-images.githubusercontent.com/79636473/156908589-24be029a-3ce1-4006-b862-e73fcf9fb49f.png">
+
+<p align="center"><img src="https://user-images.githubusercontent.com/79636473/156908589-24be029a-3ce1-4006-b862-e73fcf9fb49f.png"></p>
 
 - DQN
-  <img src="https://user-images.githubusercontent.com/79636473/156908590-9218d3df-13b3-4922-b2bd-c0e90c4b6d0e.png">
+
+<p align="center"><img src="https://user-images.githubusercontent.com/79636473/156908590-9218d3df-13b3-4922-b2bd-c0e90c4b6d0e.png"></p>
 
 # Conclusion
 
